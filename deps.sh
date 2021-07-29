@@ -76,7 +76,7 @@ fi
 
 function install_yaffshiv
 {
-    git clone --quiet --depth 1 --branch "master" https://github.com/devttys0/yaffshiv
+    git clone --quiet --depth 1 --branch "master" https://github.com/sunjiaying/yaffshiv    
     (cd yaffshiv && $SUDO $PYTHON setup.py install)
     $SUDO rm -rf yaffshiv
 }
